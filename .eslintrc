@@ -1,0 +1,6 @@
+{
+  "extends": "josa",
+  "env": {
+    "mocha": true
+  }
+}

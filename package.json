@@ -1,0 +1,42 @@
+{
+  "name": "alfred-text-transformation",
+  "version": "0.0.0",
+  "description": "Text transformations for Alfred",
+  "license": "MIT",
+  "repository": "josa42/alfred-text-transformation",
+  "author": {
+    "name": "Josa Gesell",
+    "email": "josa@gesell.me"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "mocha .",
+    "lint": "eslint .",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
+    "link": "alfred-link",
+    "unlink": "alfred-unlink"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.9.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-josa": "^0.1.0",
+    "mocha": "^7.1.2",
+    "prettier": "^2.0.5"
+  }
+}
