@@ -30,7 +30,9 @@
     "alfy"
   ],
   "dependencies": {
-    "alfy": "^0.9.1"
+    "alfy": "^0.9.1",
+    "change-case": "^4.1.1",
+    "clipboardy": "^2.3.0"
   },
   "devDependencies": {
     "alfy-test": "^0.4.0",

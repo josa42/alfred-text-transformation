@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>text-transformation</string>
 	<key>bundleid</key>
 	<string>gesell.josa.text-transformation</string>
 	<key>category</key>
@@ -14,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>AC3FA61F-8BF4-4DE0-96E6-0B2A1EBA606D</string>
+				<string>17978F3F-0A07-438D-A027-7EBCF2CBFBF6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -26,38 +24,44 @@
 	</dict>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>text-transformation</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
 				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>AC3FA61F-8BF4-4DE0-96E6-0B2A1EBA606D</string>
+			<string>17978F3F-0A07-438D-A027-7EBCF2CBFBF6</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
-				<key>argumenttype</key>
+				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>text-transformation</string>
+				<string>tt</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -77,7 +81,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Text Transformation</string>
+				<string>Transformation</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -88,17 +92,17 @@
 			<key>uid</key>
 			<string>3CB5DA9A-5F03-4543-AB53-6AC9333E9F86</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>AC3FA61F-8BF4-4DE0-96E6-0B2A1EBA606D</key>
+		<key>17978F3F-0A07-438D-A027-7EBCF2CBFBF6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>150</integer>
+			<integer>160</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
